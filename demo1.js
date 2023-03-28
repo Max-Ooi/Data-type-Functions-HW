@@ -1,49 +1,47 @@
 //Create a function that accepts two numbers, adds them and returns the result
 
-//function add (a,b){ 
-   //// return a+b;
-//}
-
-//var total = add(3,5)
+function add (a,b){ 
+    return a+b;
+}
 
 
 //Create a defensive check inside the function that handles if the inputs to the function are invalid/non existent
-// var a = "three"; 
-// var b = 4;
+var a = "three"; 
+var b = 4;
 
 
-// function add (a,b){ 
+ function add (a,b){ 
 
-//   if (typeof(a) === 'number' && typeof(b) === 'number') { 
-//     return a+b}
-//     else {
-//         console.log("Please insert a valid number");
-//     }
-// }
+ if (typeof(a) === 'number' && typeof(b) === 'number') { 
+     return a+b}
+ else {
+        console.log("Please insert a valid number");
+    }
+ }
 
-// var total = add(a,b)
+ var total = add(a,b)
 
-// console.log(total)
+ console.log(total)
 
 // Question 3 Create an array containing a few items
 
-// var listOfFruits = ["Apple", "Banana", "Orange"]
+var listOfFruits = ["Apple", "Banana", "Orange"]
 
-//console.log(listOfFruits);
+console.log(listOfFruits);
 
 // Question 4 Loop over the array using:
 
 //a. for of
 
-//for (var item of listOfFruits) { console.log(item)}
+for (var item of listOfFruits) { console.log(item)}
 
 //b. for each
 
-// listOfFruits.forEach((item) => {console.log(item)})
+listOfFruits.forEach((item) => {console.log(item)})
 
 //for (the full blown one)
 
-// for (let i = 0; i < listOfFruits.length; i++) {console.log(listOfFruits[i])}
+ for (let i = 0; i < listOfFruits.length; i++) {console.log(listOfFruits[i])}
 
 //Question 5 Create an object
 var house = {
